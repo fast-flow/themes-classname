@@ -23,4 +23,8 @@ themesClassName({
     prefixClassName: 'm-dialog',
     subClassName: '-mask'
 })
+themesClassName({
+    themes: 'night small',
+    prefixClassName: 'm-dialog'
+}, '-mask')
 ```
