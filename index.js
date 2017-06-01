@@ -1,7 +1,6 @@
 module.exports = function themesClassName (props, subClassName) {
-    // themesClassName(props, '-mask')
+    // forward compatible themesClassName(props, '-mask')
     subClassName = subClassName || ''
-    props.subClassName = props.subClassName || ''
     var themes = props.themes
     var prefixClassName = props.prefixClassName
     // get array
@@ -12,7 +11,7 @@ module.exports = function themesClassName (props, subClassName) {
             return true
         }
     }).map(function (theme){
-        return prefixClassName + props.subClassName + '--themes-' + theme
+        return prefixClassName + subClassName + '--themes-' + theme
     })
     return ' ' + themes.join(' ') + ' '
 }
