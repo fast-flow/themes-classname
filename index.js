@@ -1,5 +1,5 @@
 module.exports = function themesClassName (props, subClassName) {
-    // forward compatible themesClassName(props, '-mask')
+    // themesClassName(props, '-mask')
     subClassName = subClassName || ''
     props.subClassName = props.subClassName || ''
     var themes = props.themes
