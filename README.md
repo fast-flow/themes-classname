@@ -17,13 +17,6 @@ themesClassName({
     prefixClassName: 'm-dialog'
 })
 " m-dialog--themes-night m-dialog--themes-small "
-
-themesClassName({
-    themes: 'night small',
-    prefixClassName: 'm-dialog',
-    subClassName: '-mask'
-})
-// " m-dialog--themes-night m-dialog--themes-small "
 themesClassName({
     themes: 'night small',
     prefixClassName: 'm-dialog'
