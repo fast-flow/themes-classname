@@ -23,8 +23,10 @@ themesClassName({
     prefixClassName: 'm-dialog',
     subClassName: '-mask'
 })
+// " m-dialog--themes-night m-dialog--themes-small "
 themesClassName({
     themes: 'night small',
     prefixClassName: 'm-dialog'
 }, '-mask')
+// " m-dialog--themes-night m-dialog--themes-small "
 ```
