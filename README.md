@@ -1,5 +1,9 @@
 # themes-classname
 
+```shell
+npm i themes-classname --save
+```
+
 ```js
 var themesClassName = require('themes-classname')
 themesClassName({
@@ -16,7 +20,7 @@ themesClassName({
 
 themesClassName({
     themes: 'night small',
-    prefixClassName: 'm-dialog'
-}, '-mask')
-// " m-dialog-mask--themes-night m-dialog-mask--themes-small "
+    prefixClassName: 'm-dialog',
+    subClassName: '-mask'
+})
 ```
