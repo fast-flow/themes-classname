@@ -7,19 +7,18 @@ npm i themes-classname --save
 ```js
 var themesClassName = require('themes-classname')
 themesClassName({
-    themes: 'night',
-    prefixClassName: 'm-dialog'
+    themes: 'dark',
+    prefixClassName: 'm-modal'
 })
-// " m-dialog--themes-night "
-
+// "m-modal--themes-dark"
 themesClassName({
-    themes: 'night small',
-    prefixClassName: 'm-dialog'
+    themes: 'dark big',
+    prefixClassName: 'm-modal'
 })
-" m-dialog--themes-night m-dialog--themes-small "
+// "m-modal--themes-dark m-modal--themes-big"
 themesClassName({
-    themes: 'night small',
-    prefixClassName: 'm-dialog'
-}, '-mask')
-// " m-dialog--themes-night m-dialog--themes-small "
+    themes: 'dark big',
+    prefixClassName: 'm-select'
+}, '-menu')
+// "m-select-menu--themes-dark m-select-menu--themes-big"
 ```
