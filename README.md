@@ -19,6 +19,6 @@ themesClassName({
 themesClassName({
     themes: 'dark big',
     prefixClassName: 'm-select'
-}, '-menu')
+}, 'menu')
 // "m-select-menu--themes-dark m-select-menu--themes-big"
 ```

@@ -1,6 +1,6 @@
 {
   "name": "themes-classname",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "create themes className(m-name--themes-night)",
   "main": "index.js",
   "scripts": {
